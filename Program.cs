@@ -30,7 +30,20 @@ namespace c2_cw1
             {
                 Console.WriteLine(heroName + " is more powerful");
             }
-            else 
+            else
+            {
+                Console.WriteLine("Neither is more powerful");
+            }
+
+            if (height1 > heroHeight)
+            {
+                Console.WriteLine(characterName + " is taller than " + heroName);
+            }
+            else if (height1 < heroHeight)
+            {
+                Console.WriteLine(heroName + " is taller than " + characterName);
+            }
+            else
             {
                 Console.WriteLine("Neither is more powerful");
             }
@@ -38,3 +51,4 @@ namespace c2_cw1
         }
     }
 }
+
